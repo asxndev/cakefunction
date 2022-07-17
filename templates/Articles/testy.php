@@ -66,7 +66,6 @@
   <p><button><?= $this->Html->link('view',['action'=>'view',$article->slug]); ?></button></p>
 
   <button><?= $this->Html->link('Edit',['action'=>'edit',$article->slug]); ?></button>
-  <button><?= $this->Form->postLink('Delete',['action'=>'delete',$article->slug],['confirm'=>'Are you sure?']); ?></button>
 </div>
 </td>
 
